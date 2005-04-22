@@ -1,0 +1,99 @@
+h1 {
+	padding : 0em 0em 0.5em 0em;
+	color : maroon;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+    border-bottom : thin;
+    border-bottom-style : dashed;
+}
+
+h2 {
+	font-size: 18px;
+	color: maroon;
+	padding-bottom : 4px;
+	font-family: Verdana, Geneva, Arial, Helvetica, san-serif;
+}
+
+h3 {
+	font-size: 16px;
+	color: maroon;
+	padding-bottom : 4px;
+	font-family: Verdana, Geneva, Arial, Helvetica, san-serif;
+}
+
+body {
+	margin-left: 6em;
+	margin-right: 6em;
+	font-family: Arial, Verdana, Geneva, Helvetica, sans-serif;
+	line-height: 1.5em;
+}
+
+ul {
+	list-style-image: url(../images/blank.png);
+}
+
+li,dd,dt {
+	padding-bottom : 4px;
+}
+
+img {
+	vertical-align: baseline;
+	border-width: 0px;
+}
+
+pre {
+	font-family : monospace, Verdana, Courier;
+	font-size : 12px;
+	padding: 1em 3em 1em 3em;
+	background-color: #FFFFCC;
+	color: black;
+	border: 1px dashed gray;
+}
+
+p {
+	color: black;
+	padding: 1em 1em 1em 1em;
+}
+
+a {
+	text-decoration: none;
+	color: maroon;
+}
+
+a:hover {
+	text-decoration: none;
+	color: red;
+}
+
+table {
+  border-collapse:collapse;
+}
+
+td {
+	text-align: center;
+	font-size: 12px;
+	background-color: #F5F5F5;
+	border: 1px dashed #CCCCCC;
+	padding : 0em 1em 0em 1em;
+}
+
+.screenshot {
+	text-align: center;
+	font-size: 12px;
+	background-color: #F5F5F5;
+	border: 1px dashed #CCCCCC;
+}
+
+.berlios {
+	color: gray;
+	padding: 0em 0em 0em 0em;
+}
+
+.release {
+	padding : 0em 0em 0em 0em;
+	color : #AAAAAA;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	text-align: center;
+}

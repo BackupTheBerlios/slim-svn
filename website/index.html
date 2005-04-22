@@ -1,0 +1,151 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml/DTD/xhtml1-strict.dtd">
+<html xml:lang="en_US">
+<head>
+  <title>SLiM - Simple Login Manager</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+  <link rel="stylesheet" href="css/slim.css" type="text/css" />
+</head>
+
+<body>
+
+<h1>SLiM - Simple Login Manager</h1>
+<p class="release">
+  Latest release: <a href="http://download.berlios.de/slim/slim-1.1.0.tar.gz">1.1.0</a>
+</p>
+
+<h2>What is it?</h2>
+<p>
+ SLiM is a Desktop-independent graphical login manager for X11, derived
+ from <a href="http://largo.windowmaker.org/Login.app/">Login.app</a>.
+</p>
+<p>
+  It aims to be light and simple, although completely configurable
+  through themes and an option file; is suitable for machines on which
+  remote login functionalities are not needed. Features included:
+</p>
+<ul>
+  <li>PNG and XFT support for alpha transparency and antialiased fonts</li>
+  <li>External themes support</li>
+  <li>Configurable runtime options: X server, login / shutdown / reboot commands</li>
+  <li>Single (GDM-like) or double (XDM-like) input control</li>
+  <li>Can load predefined user at startup</li>
+  <li>Configurable welcome / shutdown messages</li>
+</ul>
+
+
+<h2>Examples</h2>
+<p>
+  Here's some example of SLiM in action (hint: press F11 during login
+  to take a screenshot of the application):
+</p>
+
+<table>
+ <tbody>
+   <tr>
+     <td align="center">SLiM - 'Red Leaves'</td>
+     <td align="center">SLiM - 'Curvy'</td>
+   </tr>
+   <tr>
+     <td align="center">
+       <a href="images/slim01.jpg"> 
+       <img src="images/tmbslim01.jpg" alt="Screenshot" width="120" height="90"/>
+       </a>    
+     </td>
+     <td align="center">
+       <a href="images/slim02.jpg"> 
+       <img src="images/tmbslim02.jpg" alt="Screenshot" width="120" height="90"/>
+       </a>    
+     </td>
+   </tr>
+   <tr>
+     <td align="center">SLiM - 'Lila'</td>
+     <td align="center">SLiM - 'Old style (Login.app)'</td>
+   </tr>
+   <tr>
+     <td align="center">
+       <a href="images/slim03.jpg"> 
+       <img src="images/tmbslim03.jpg" alt="Screenshot" width="120" height="90"/>
+       </a>    
+     </td>
+     <td align="center">
+       <a href="images/slim04.jpg"> 
+       <img src="images/tmbslim04.jpg" alt="Screenshot" width="120" height="90"/>
+       </a>    
+     </td>
+   </tr>
+ </tbody>
+</table>
+
+<p>
+  Note that some of the above themes has been adapted from a
+  GDM theme and is copyright by the respective authors.
+</p>
+<p>
+  The Lila theme is not included in the current release of SLiM,
+  since there's been some request lately, 
+  <a href="http://www.varlock.com/files/slim-lila.tgz">Here's</a>
+  a link to the Lila SLiM theme. Additional themes will be organized
+  in a slim-themes package in the future releases.
+</p>
+
+<h2>Requirements</h2>
+<ul>
+  <li>X11</li>
+  <li>libpng</li>
+  <li>libjpeg</li>
+  <li>freetype</li>
+</ul>
+<p>
+  So far SLiM has been tested only in Linux; better compatibility
+  with other Unix-like systems such as FreeBSD is planned for the future.
+  (contributions welcome!)
+</p>
+
+<h2>Installation and configuration</h2>
+<h3>Compilation</h3>
+<p>
+  Unpack the archive, run
+</p>
+<pre>
+   ./configure
+   make
+   make install (as root)
+</pre>
+
+<h3>Documentation</h3>
+<p>
+  By default the configuration file is /usr/etc/slim.conf;
+  the options are self-explanatory.
+</p>
+<p>
+  Themes are located at /usr/share/slim/themes; to create or
+  modify a theme be sure to have a look at the simple theme-howto
+  included in the 'THEMES' file and also available
+  <a href="doc/THEMES">online</a>.
+</p>
+
+
+<h2>Authors and License</h2>
+<p>
+  SLiM is developed by Simone Rota and Johannes Winkelmann,
+  and is released under the therms of the GNU General Public License,
+  verson 2.<br />
+  The program is based on Login.app by Per Lidén.
+</p>
+
+<h2>Download</h2>
+<p>
+  Get the latest release at the <a href="http://developer.berlios.de/project/showfiles.php?group_id=2663">
+  BerliOS Developer pages</a>
+</p>
+
+<p class="berlios">
+  kindly hosted by<br />
+  <a href="http://developer.berlios.de">
+    <img src="images/berlios.png"
+     alt="BerliOS Logo"/>
+  </a>
+</p> 
+
+</body>
+</html>
